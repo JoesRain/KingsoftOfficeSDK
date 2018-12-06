@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.description  = "A short description of KingsoftOfficeSDK."
   s.homepage     = "https://github.com/WPSOffice-Dev/KingsoftOfficeSDK"
   s.license      = { :type => "MIT", :file => "LICENSE" }
-  s.author             = { "liaohuanyu" => "s_liaohuanyu@wps.cn" }
+  s.author       = { "wps_ios" => "wps_ios@wps.cn" }
   s.source       = { :git => "https://github.com/WPSOffice-Dev/KingsoftOfficeSDK.git", :tag => s.version }
   s.source_files = 'KingsoftOfficeSDK/*.{h,a}'
 
