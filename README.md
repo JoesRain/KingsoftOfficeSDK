@@ -18,7 +18,7 @@ $ pod install
 ```
 
 ### 2. 手动添加文件到 Xcode 工程中
-将 [KingsoftOfficeSDK](https://github.com/WPSOffice-Dev/KingsoftOfficeSDK.git) 下载至本地，并复制文件夹 KingsoftOfficeSDK 到工程中。
+将 [KingsoftOfficeSDK](https://github.com/WPSOffice-Dev/KingsoftOfficeSDK/archive/master.zip) 下载至本地，并复制文件夹 KingsoftOfficeSDK 到工程中。
 
 
 ## 引入静态库   
