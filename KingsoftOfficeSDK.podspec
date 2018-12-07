@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/WPSOffice-Dev/KingsoftOfficeSDK.git", :tag => s.version }
   s.source_files = 'KingsoftOfficeSDK/*.h'
   s.vendored_libraries = "KingsoftOfficeSDK/*.a",
-  s.frameworks = 'Foundation', 'UIKit', 'CoreFoundation', 'FileProvider', 'CoreImage', 'CoreMedia', 'AudioToolbox', 'MediaToolbox', 'FileProvider', 'CoreAudio'
+  s.frameworks = 'Foundation', 'UIKit', 'CoreFoundation', 'FileProvider', 'CoreImage', 'CoreMedia', 'AudioToolbox', 'MediaToolbox', 'FileProvider', 'CoreAudio', 'OpenGLES'
 
 
 end
