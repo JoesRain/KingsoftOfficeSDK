@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
   s.source_files = 'KingsoftOfficeSDK/*.h'
   s.vendored_libraries = "KingsoftOfficeSDK/*.a",
   s.frameworks = 'Foundation', 'UIKit', 'CoreFoundation', 'FileProvider', 'CoreGraphics', 'CoreImage', 'CoreMedia', 'AudioToolbox', 'MediaToolbox', 'FileProvider', 'CoreAudio', 'OpenGLES', 'SystemConfiguration', 'MobileCoreServices'
-  s.libraries = 'z', 'sqlite3'
+  s.libraries  = 'iconv','sqlite3','stdc++','z'
 end
